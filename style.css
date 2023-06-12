@@ -1,9 +1,17 @@
+body
+{ 
+min-height: 100vh;
+margin:0;
+display: flex; 
+text-align: center; 
+align-items: center;
+}
 .qr-all{
     width: 300px;
-    min-height: 450px;
+/*     min-height: 450px; */
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    margin: auto;
+/*     margin: auto; */
     box-shadow:black;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); 
     margin-top: 15vh;
